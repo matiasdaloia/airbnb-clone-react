@@ -1,0 +1,151 @@
+/* css para imagen container hero */
+.hero{ 
+    height: 100vh;
+    background-color: red;
+    background-image: url(./img/pexels-eduardo-frança-4435959.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 2.8rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index: 100;
+    margin-top:20px;
+}
+
+.header__icon{
+    object-fit: contain;
+    width: 13vw;
+    cursor: pointer;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 35px;
+    padding:0 15px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.header__search > input {
+    border: none;
+    flex: 1;
+    cursor: pointer;
+}
+
+.header__searchIcon{
+    background-color:rgb(255, 56, 92);
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.header__right > p {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header__right > .MuiSvgIcon-root{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header__right > .MuiAvatar-colorDefault {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Jumbotron */
+
+.hero__jumbotron{
+    position: relative;
+    color: white;
+    width: 35%;
+    top: 25%;
+}
+
+.hero__jumbotron > h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero__jumbotron > p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.hero__jumbotron > .MuiButton-root {
+    background-color: white;
+    font-weight: 600;
+    text-transform: inherit !important; 
+}
+
+.hero__jumbotron > .MuiButton-root:hover {
+    background-color: rgb(255, 56, 92);     
+}
+
+
+@media screen and (max-width:744px){
+    .header__icon{
+        display: none;
+    }   
+    .header__right{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+    .hero__jumbotron{
+        width: 100%;
+        top: 20%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Grow effect */
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .grow:hover,
+  .grow:focus {
+    transform: scale(1.05);
+    
+  }
+  
+  .grow:active {
+    transform: scale(.90);
+  }
+
+  
