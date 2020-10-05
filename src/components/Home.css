@@ -1,0 +1,10 @@
+.home__section{
+    display:flex;
+    padding: 30px;    
+}
+
+@media screen and (max-width:744px){
+    .home__section{
+        flex-wrap: wrap;
+    }
+}

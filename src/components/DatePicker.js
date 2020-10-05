@@ -4,7 +4,6 @@ import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import Button from "@material-ui/core/Button";
-import PeopleIcon from "@material-ui/icons/People";
 
 function DatePicker({ showsearch, setShowSearch }) {
   //Date picker state
