@@ -1,0 +1,20 @@
+.searchPage{
+    margin: 20px 20px;
+}
+
+.searchPage__info{
+    padding:20px;
+}
+
+.searchPage__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.searchPage > .MuiButton-outlined{
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 0 5px;
+    margin-left: 10px;
+    border: 1px solid black;
+}

@@ -43,6 +43,7 @@
     border: none;
     flex: 1;
     cursor: pointer;
+    outline: none;
 }
 
 .header__searchIcon{
